@@ -1,13 +1,11 @@
 <p align="center"><img src="preview.jpg?v=4" /></p>
-<h1 align="center">language-de</h1>
-<p align="center">German translations for WonderCMS</p>
-<p align="center">Translation author: Masha Pogorevc</p>
+<h1 align="center">language-sr</h1>
+<p align="center">Serbian translations for WonderCMS</p>
+<p align="center">Translation author: Aleksandar Belic</p>
 
 <br><br>
 
-This plugin adds German translations to the WonderCMS Settings/admin area.
-
-![](https://images.stanisic.nl/5oBG9Zaw/qU1dXIyr)
+This plugin adds Serbian translations to the WonderCMS Settings/admin area.
 
 ## How to use
 1. Login to your WonderCMS website.
@@ -16,14 +14,14 @@ This plugin adds German translations to the WonderCMS Settings/admin area.
 
 ## How this works
 
-The translations are all in the de.csv file. Why in CVS? That's how all
+The translations are all in the sr.csv file. Why in CVS? That's how all
 other major CMSes do it, so there must be a good reason for it.
 
 You will see something like this a lot: 
 
 ```
 SECTION NAME
-	"> Some text","> Wat tekst"
+	"> Some text","> Неки текст"
 ```
 
 The 'parser' skips all lines that are not equal to two values, so SECTION NAME (contains one value) is skipped.

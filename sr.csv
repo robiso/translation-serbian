@@ -1,54 +1,54 @@
 OVERLAYS
-    ">Saving","> Wird gespeichert"
+    ">Saving","> Снимање"
     ">Checking for updates",">Suche nach Updates"
 
 
 BUTTONS
-    "> Settings","> die Einstellungen"
+    "> Settings","> Подешавања"
 
 
 MENU ITEMS
-    ">Current page","> Aktuelle Seite"
-    ">Menu","> Menü"
-    ">Files","> Dateien"
-    ">Themes","> Themen"
-    ">Plugins","> Plugins"
-    ">Security","> Sicherheit"
+    ">Current page","> Тренутна страница"
+    ">Menu","> Мени"
+    ">Files","> Датотеке"
+    ">Themes","> Теме"
+    ">Plugins","> Додаци"
+    ">Security","> Сигурност"
 
 
 CURRENT PAGE
-    ">Page title","> Seitenname"
-    ">Page keywords","> Schlüsselwörter"
-    ">Page description","> Seitenbeschreibung"
-    "> Delete page","> Seite löschen"
+    ">Page title","> Наслов странице"
+    ">Page keywords","> Кључне речи странице"
+    ">Page description","> Опис странице"
+    "> Delete page","> Брисање странице"
     "return confirm\('Delete (.*?)\?'\)","return confirm('löschen $1?')"
 
 
 MENU
-    ">Website title","> Seitentitel"
-    ">Page to display on homepage","> Seite, die auf der Startseite angezeigt werden soll"
-    ">visit","> besuchen"
-    "> Add page","> Seite hinzufügen"
+    ">Website title","> Наслов веб места"
+    ">Page to display on homepage","> Страница која се приказује као почетна"
+    ">visit","> посети"
+    "> Add page","> Додај страницу"
 
 
 FILES
-    ">Upload","> Hochladen"
-    ">Delete files","> Dateien löschen"
+    ">Upload","> Отпреми"
+    ">Delete files","> Обриши датотеке"
 
 
 THEMES AND PLUGINS
-    "> Check for updates","> Nach Updates suchen"
+    "> Check for updates","> Провери ажурирања"
     "return confirm\('Remove (.*?)\?'\)","return confirm('löschen $1?')"
-    ">Active","> Aktiv"
+    ">Active","> Активно"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivieren $1?')"
-    "> Activate","> Aktivieren"
-    "> More info",""> Mehr Informationen"
-    "> Install","> Installieren"
-    ">Installed version:","> Installierte Version:"
-    ">Custom repository","> Benutzerdefiniertes Repository"
-    "Enter URL to custom repository","URL zum Repository eingeben"
-    "> Add", "> Hinzufügen"
-    "> Read more about custom repositories","> Lesen Sie mehr über benutzerdefinierte Repositories“
+    "> Activate","> Активирај"
+    "> More info",""> Више информација"
+    "> Install","> Инсталирај"
+    ">Installed version:","> Инсталирана верзија:"
+    ">Custom repository","> Прилагођена репозиторија"
+    "Enter URL to custom repository","Унесите URL прилагођене репозиторије"
+    "> Add", "> Додај"
+    "> Read more about custom repositories","> Прочитај више о прилагођеним репозиторијама“
 
 
 SECURITY
