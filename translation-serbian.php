@@ -3,7 +3,7 @@
 global $Wcms;
 
 $Wcms->addListener('settings', function ($args) {
-    $translations = array_map('str_getcsv', file(__DIR__ . '/de.csv'));
+    $translations = array_map('str_getcsv', file(__DIR__ . '/sr.csv'));
 
     foreach ($translations as $replacement) {
         if (count($replacement) !== 2) {
