@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> Wird gespeichert"
+    ">Checking for updates",">Suche nach Updates"
+
+
+BUTTONS
+    "> Settings","> die Einstellungen"
+
+
+MENU ITEMS
+    ">Current page","> Aktuelle Seite"
+    ">Menu","> Menü"
+    ">Files","> Dateien"
+    ">Themes","> Themen"
+    ">Plugins","> Plugins"
+    ">Security","> Sicherheit"
+
+
+CURRENT PAGE
+    ">Page title","> Seitenname"
+    ">Page keywords","> Schlüsselwörter"
+    ">Page description","> Seitenbeschreibung"
+    "> Delete page","> Seite löschen"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('löschen $1?')"
+
+
+MENU
+    ">Website title","> Seitentitel"
+    ">Page to display on homepage","> Seite, die auf der Startseite angezeigt werden soll"
+    ">visit","> besuchen"
+    "> Add page","> Seite hinzufügen"
+
+
+FILES
+    ">Upload","> Hochladen"
+    ">Delete files","> Dateien löschen"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Nach Updates suchen"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('löschen $1?')"
+    ">Active","> Aktiv"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Aktivieren $1?')"
+    "> Activate","> Aktivieren"
+    "> More info",""> Mehr Informationen"
+    "> Install","> Installieren"
+    ">Installed version:","> Installierte Version:"
+    ">Custom repository","> Benutzerdefiniertes Repository"
+    "Enter URL to custom repository","URL zum Repository eingeben"
+    "> Add", "> Hinzufügen"
+    "> Read more about custom repositories","> Lesen Sie mehr über benutzerdefinierte Repositories“
+
+
+SECURITY
+    ">Admin login URL","> Admin-Login-URL"
+    ">Save your login URL to log in to your website next time:","> Speichern Sie Ihre Login-URL, um sich beim nächsten Mal auf Ihrer Website anzumelden:",
+    ">Password","> Passwort"
+    "Old password","Altes Passwort"
+    "New password","Neues Passwort"
+    "> Change password","> Passwort ändern"
+
+    "> How to restore backup","> So stellen Sie ein Backup wieder her",
+    ">Improved security \(Apache only\)","> Verbesserte Sicherheit (nur Apache-Server)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS-Umleitung, 30-Tage-Caching, Iframes nur von demselben Ursprung zulässig, Mime-Typ-Sniffing-Verhinderung, strengere Cookie- und Refferer-Richtlinien."
+    ">ON \(warning: may break your website\)","> ON \ (Warnung: kann Ihre Website brechen \)"
+    ">OFF \(reset htaccess to default\)", "> Off (zusätzliche Sicherheit zurücksetzen)"
+    "> Read more before enabling","> Lesen Sie mehr vor dem Aktivieren"
+    ">Backup","> Backup"
+    "> Backup website","> Backup der Webseite"
+    ">Last 5 logins","> Letzte 5 Anmeldungen"
+
+
+STATISTICS
+    ">Statistics","> Statistik"
+    ">Today",">Heute"
+    ">This week", ">Diese Woche"
+    ">Most popular page","> Beliebteste Seite"
+    ">Pageviews last two weeks","> Seitenaufrufe in den letzten zwei Wochen"
+    ">Sessions last two weeks","> Sessions in den letzten zwei Wochen" 
+    ">Sessions","> Sessions"
+    ">Pageviews","> Seitenaufrufe"
+
+
+FOOTER
+    ">News","> Nachrichten"
+    ">Community",">Forum"
+    ">Docs","> Dokumentation"
+    ">Donate","> Spenden"
+    ">Shop\/Merch",">Shop"
