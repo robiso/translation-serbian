@@ -1,7 +1,7 @@
 <p align="center"><img src="preview.jpg" /></p>
 <h1 align="center">language-sr</h1>
 <p align="center">Serbian translations for WonderCMS</p>
-<p align="center">Translation author: [Aleksandar Belic](https://github.com/aleksbelic)</p>
+<p align="center">Translation author: <a href="https://github.com/aleksbelic" target="_blank">Aleksandar Belic</a></p>
 
 <br><br>
 
