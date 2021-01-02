@@ -1,89 +1,89 @@
 OVERLAYS
-    ">Saving", ">Снимање"
-    ">Checking for updates", ">Провера ажурирања"
+    ">Saving",">Снимање"
+    ">Checking for updates",">Провера ажурирања"
 
 
 BUTTONS
-    "> Settings", "> Подешавања"
+    "> Settings","> Подешавања"
 
 
 MENU ITEMS
-    ">Current page", ">Тренутна страница"
-    ">Menu", ">Мени"
-    ">Files", ">Датотеке"
-    ">Themes", ">Теме"
-    ">Plugins", ">Додаци"
-    ">Security", ">Безбедност"
+    ">Current page",">Тренутна страница"
+    ">Menu",">Мени"
+    ">Files",">Датотеке"
+    ">Themes",">Теме"
+    ">Plugins",">Додаци"
+    ">Security",">Безбедност"
 
 
 CURRENT PAGE
-    ">Page title", ">Наслов странице"
-    ">Page keywords", ">Кључне речи странице"
-    ">Page description", ">Опис странице"
-    "> Delete page", "> Обриши страницу"
-    "return confirm\('Delete (.*?)\?'\)", "return confirm('Обриши $1?')"
+    ">Page title",">Наслов странице"
+    ">Page keywords",">Кључне речи странице"
+    ">Page description",">Опис странице"
+    "> Delete page","> Обриши страницу"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Обриши $1?')"
 
 
 MENU
-    ">Website title", ">Наслов веб сајта"
-    ">Page to display on homepage", ">Почетна страница"
-    ">visit", "> посети"
-    "> Add page", "> Додај страницу"
+    ">Website title",">Наслов веб сајта"
+    ">Page to display on homepage",">Почетна страница"
+    ">visit","> посети"
+    "> Add page","> Додај страницу"
 
 
 FILES
-    ">Upload", ">Отпреми"
-    ">Delete files", ">Обриши датотеке"
+    ">Upload",">Отпреми"
+    ">Delete files",">Обриши датотеке"
 
 
 THEMES AND PLUGINS
-    "> Check for updates", "> Провери ажурирања"
-    "return confirm\('Remove (.*?)\?'\)", "return confirm('Уклони $1?')"
-    ">Active", ">Активно"
+    "> Check for updates","> Провери ажурирања"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Уклони $1?')"
+    ">Active",">Активно"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активирај $1?')"
-    "> Activate", "> Активирај"
-    "> More info", "> Више информација"
-    "> Install", "> Инсталирај"
-    ">Installed version:", ">Инсталирана верзија:"
-    ">Custom repository", ">Прилагођена репозиторија"
-    "Enter URL to custom repository", "Унесите URL прилагођене репозиторије"
-    "> Add", "> Додај"
-    ">Read more about custom repositories", ">Сазнајте више о прилагођеним репозиторијама"
+    "> Activate","> Активирај"
+    "> More info","> Више информација"
+    "> Install","> Инсталирај"
+    ">Installed version:",">Инсталирана верзија:"
+    ">Custom repository",">Прилагођена репозиторија"
+    "Enter URL to custom repository","Унесите URL прилагођене репозиторије"
+    "> Add","> Додај"
+    "> Read more about custom repositories","> Сазнајте више о прилагођеним репозиторијама"
 
 
 SECURITY
-    ">Admin login URL", ">URL за пријаву администратора"
-    ">Save your login URL to log in to your website next time:", ">Сачувајте свој URL за пријаву да би сте се пријавили на свој веб сајт следећи пут:"
-    ">Password", ">Лозинка"
-    "Old password", "Стара лозинка"
-    "New password", "Нова лозинка"
-    ">Change password", ">Промена лозинке"
+    ">Admin login URL",">URL за пријаву администратора"
+    ">Save your login URL to log in to your website next time:",">Сачувајте свој URL за пријаву да би сте се пријавили на свој веб сајт следећи пут:"
+    ">Password",">Лозинка"
+    "Old password","Стара лозинка"
+    "New password","Нова лозинка"
+    "> Change password","> Промени лозинку"
 
-    ">How to restore backup", ">Како применити резервну копију"
-    ">Improved security \(Apache only\)", ">Побољшана безбеност \(само Apache-Server\)"
-    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.", "> HTTPS-преусмеравање, 30-одневно-кеширање, омогућени Iframe-ови искључиво заједничког порекла, забрана провере MIME-типа, строжија правила за колачиће и HTTP-реферер."
-    ">ON \(warning: may break your website\)",">УКЉУЧЕНО \(упозорење: може изазвати оштећења на вашем веб сајту\)"
-    ">OFF \(reset htaccess to default\)", ">ИСКЉУЧЕНО \(ресетуј htaccess на подразумевана подешавања\)"
-    ">Read more before enabling", ">Сазнајте више пре активације"
-    ">Backup", ">Резервна копија"
-    ">Backup website", ">Направи резервну копију веб сајта"
-    ">Last 5 logins", ">Последњих 5 пријава"
+    "> How to restore backup","> Како применити резервну копију"
+    ">Improved security \(Apache only\)",">Побољшана безбеност (само Apache-Server)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS-преусмеравање, 30-одневно-кеширање, омогућени Iframe-ови искључиво заједничког порекла, забрана провере MIME-типа, строжија правила за колачиће и HTTP-реферер."
+    ">ON \(warning: may break your website\)",">УКЉУЧЕНО (упозорење: може изазвати оштећења на вашем веб сајту)"
+    ">OFF \(reset htaccess to default\)",">ИСКЉУЧЕНО (ресетуј htaccess на подразумевана подешавања)"
+    "> Read more before enabling","> Сазнајте више пре активације"
+    ">Backup",">Резервна копија"
+    "> Backup website","> Направи резервну копију веб сајта"
+    ">Last 5 logins",">Последњих 5 пријава"
 
 
 STATISTICS
-    ">Statistics", ">Статистика"
-    ">Today", ">Данас"
-    ">This week", ">Ове седмице"
-    ">Most popular page", ">Најпосећенија страница"
-    ">Pageviews last two weeks", ">Број посета страници у последње две седмице"
-    ">Sessions last two weeks", ">Сесије у последње две седмице" 
-    ">Sessions", ">Сесије"
-    ">Pageviews", ">Посете страници"
+    ">Statistics",">Статистика"
+    ">Today",">Данас"
+    ">This week",">Ове седмице"
+    ">Most popular page",">Најпосећенија страница"
+    ">Pageviews last two weeks",">Број посета страници у последње две седмице"
+    ">Sessions last two weeks",">Сесије у последње две седмице" 
+    ">Sessions",">Сесије"
+    ">Pageviews",">Посете страници"
 
 
 FOOTER
-    ">News", ">Вести"
-    ">Community", ">Форум"
-    ">Docs", ">Документација"
-    ">Donate", ">Донирај"
-    ">Shop\/Merch", ">Продавница"
+    ">News",">Вести"
+    ">Community",">Форум"
+    ">Docs",">Документација"
+    ">Donate",">Донирај"
+    ">Shop\/Merch",">Продавница"
