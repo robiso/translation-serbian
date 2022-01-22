@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "plugins": {
+        "translation-serbian": {
+            "name": "Translation Serbian",
+            "repo": "https://github.com/robiso/translation-serbian/tree/master",
+            "zip": "https://github.com/robiso/translation-serbian/archive/master.zip",
+            "summary": "Serbian language pack.",
+            "version": "1.0.0",
+            "image": "https://raw.githubusercontent.com/robiso/translation-serbian/master/preview.jpg"
+        }
+    }
+}
