@@ -138,7 +138,6 @@ ALERTS
     "^Custom module not found\.$","Прилагођени модул није пронађен."
     "Custom module <b>([^<]*)<\/b> removed from <a ([^>]*)>([^<]*)<\/a>\. Anything installed from it stays until you remove it\.","Прилагођени модул <b>$1</b> је уклоњен из одељка <a $2>$3</a>. Све што је инсталирано из њега остаје док то не уклоните."
     "Module successfully added to <a ([^>]*)>([^<]*)<\/b><\/a>\.","Модул је успешно додат у одељак <a $1>$2</b></a>."
-    "Every remaining page is private, so the new home page \(([^<]*?)\) is private too: visitors get the 404 page at the site address\. Make it public in Settings -> Menu\.","Све преостале странице су приватне, па је и нова почетна страница ($1) приватна: посетиоци на адреси сајта добијају страницу 404. Учините је јавном у Подешавања -> Мени."
     "A private page cannot be the home page: visitors would get the 404 page at the site address\. Make it public first\.","Приватна страница не може бити почетна: посетиоци би на адреси сајта добили страницу 404. Прво је учините јавном."
     "Could not write ([^<]*?)\. Check the free disk space and the permissions of the data folder; nothing was changed\.","Није могуће уписати $1. Проверите слободан простор на диску и дозволе фасцикле data; ништа није промењено."
     "This page cannot be saved: its parent page does not exist\. Create the parent page first\.","Ова страница не може да се сачува: њена надређена страница не постоји. Прво направите надређену страницу."
@@ -216,3 +215,4 @@ ALERTS
     "<b>Open file options to see your uploaded file<\/b>","<b>Отворите опције датотека да бисте видели отпремљену датотеку</b>"
     "^Cannot create ZIP archive\.$","ZIP архива не може да се направи."
     "^Hide all alerts until next login$","Сакриј сва обавештења до следеће пријаве"
+    "^Make another page public first: the home page cannot be private\.$","Прво учините јавном другу страницу: почетна страница не може бити приватна."
