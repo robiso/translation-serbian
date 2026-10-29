@@ -45,8 +45,8 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Провери ажурирања"
-    "title=""Remove this repository from the list""","title=""Уклони ову репозиторију са листе"""
-    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Уклонити $1? Све што је инсталирано из ње остаје."""
+    "title=""Remove this repository from the list""","title=""Уклони овај репозиторијум са листе"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Уклонити $1? Све што је инсталирано из њега остаје."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Уклони $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Уклони $1?"""
     ">Active",">Активно"
@@ -145,7 +145,7 @@ ALERTS
     "^Wrong password\.$","Погрешна лозинка."
     "^Cannot get content from url \(HTTP (\d+)\)\.$","Није могуће преузети садржај са URL адресе (HTTP $1)."
     "^Cannot get content from url\.$","Није могуће преузети садржај са URL адресе."
-    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Преузета датотека није била потпуно и новије језгро WonderCMS-а; ништа није промењено. Покушајте поново за неколико минута."
+    "The downloaded file was not a complete, newer WonderCMS core; nothing was changed\. Try again in a few minutes\.","Преузета датотека није садржала потпуно и новије језгро WonderCMS-а; ништа није промењено. Покушајте поново за неколико минута."
     "Could not write the new index\.php\. Check the free disk space and the permissions of index\.php and its folder, then try again\.","Није могуће уписати нови index.php. Проверите слободан простор на диску и дозволе за index.php и његову фасциклу, па покушајте поново."
     "Theme <b>([^<]*)<\/b> is not installed\. Showing the Sky theme instead\.","Тема <b>$1</b> није инсталирана. Уместо ње приказује се тема Sky."
     "Theme <b>([^<]*)<\/b> failed to load: ","Тема <b>$1</b> није могла да се учита: "
