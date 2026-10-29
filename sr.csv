@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> Подешавања"
+    "return confirm\('Log out\?'\)","return confirm('Одјавити се?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title",">Наслов веб сајта"
     ">Page to display on homepage",">Почетна страница"
     ">visit","> посети"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Учини страницу приватном (видите је само ви док сте пријављени)"""
+    "title=""Make page public""","title=""Учини страницу јавном"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> приватна</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> јавна</a>"
     "> Add page","> Додај страницу"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Провери ажурирања"
+    "title=""Remove this repository from the list""","title=""Уклони ову репозиторију са листе"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Уклонити $1? Све што је инсталирано из ње остаје."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Уклони $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Уклони $1?"""
     ">Active",">Активно"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активирај $1?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активирај $1?"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Деактивирај $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Ово је додатак типа $1. Инсталирање додатка $2 ће искључити $3. Наставити?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Ово је додатак типа $1. Ажурирање додатка $2 оставља га укљученим и искључује $3. Наставити?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Ово је додатак типа $1. Укључивање додатка $2 ће искључити $3. Наставити?"""
     "> Activate","> Активирај"
     "> More info","> Више информација"
     "> Install","> Инсталирај"
     ">Installed version:",">Инсталирана верзија:"
     ">Custom repository",">Прилагођена репозиторија"
     "Enter URL to custom repository","Унесите URL прилагођене репозиторије"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Додавање непознатих модула може бити ВЕОМА опасно, да ли сте сигурни да желите да наставите?')"
     "> Add","> Додај"
     "> Read more about custom repositories","> Сазнајте више о прилагођеним репозиторијама"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.","> HTTPS-преусмеравање, 30-одневно-кеширање, омогућени Iframe-ови искључиво заједничког порекла, забрана провере MIME-типа, строжија правила за колачиће и HTTP-реферер."
     ">ON \(warning: may break your website\)",">УКЉУЧЕНО (упозорење: може изазвати оштећења на вашем веб сајту)"
     ">OFF \(reset htaccess to default\)",">ИСКЉУЧЕНО (ресетуј htaccess на подразумевана подешавања)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Да ли сте сигурни? Ово може покварити ваш веб сајт ако SSL није исправно подешен.')"
     "> Read more before enabling","> Сазнајте више пре активације"
     ">Backup",">Резервна копија"
     "> Backup website","> Направи резервну копију веб сајта"
